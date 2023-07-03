@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-&h3bskf6409x9g-1n3oh)(cb(33v#9%3++^2_!ptm*vt1gxzlg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['13.53.40.92']
 
 
 # Application definition
@@ -156,7 +156,14 @@ SIMPLE_JWT = {
     'TOKEN_TYPE_CLAIM': 'token_type',
 }
 
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
 
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',  # Your React app's development server
+    'http://127.0.0.1:8000',  # Add your Django local server
+]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
