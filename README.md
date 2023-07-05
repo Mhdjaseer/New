@@ -25,7 +25,7 @@ To deploy this project run
 1. Clone the repository:
 
 ```bash
- https://github.com/Mhdjaseer/djanog_chat_app.git
+https://gitlab.com/nextgrowth601727/growth.git
 ```
 or download the zip file 
 
@@ -84,7 +84,7 @@ To deploy this project run
 1. Clone the repository:
 
 ```bash
- https://github.com/Mhdjaseer/djanog_chat_app.git
+https://gitlab.com/nextgrowth601727/growth.git
 ```
 or download the zip file 
 
